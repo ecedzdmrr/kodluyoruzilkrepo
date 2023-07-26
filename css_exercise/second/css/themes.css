@@ -1,0 +1,83 @@
+body {
+    background: #ffffff;
+    align-items: center;
+    display: flexbox;
+    text-align: center;
+}
+
+.logo {
+    margin: 25px auto 0;
+}
+
+/* searchBar part */
+.search {
+    background-color: #EEEEEE;
+    margin: auto;
+    width: 90%;
+    /* text-align: center; */
+    height: 65px;
+}
+
+.searchBar {
+    margin: 0 auto;
+}
+
+/* specialSearches part */
+.specialPart {
+    margin: 5px auto 0;
+    display: inline-flex;
+    text-align: center;
+    width: 90%;
+    height: 76px;
+}
+
+.firstBox {
+    background-color: #7EE5DA;
+    /* float: left; */
+    width: 45%;
+    height: 76px;
+}
+
+.secondBox {
+    background-color: #70CCC2;
+    /* float: left; */
+    margin: 0 .5%;
+    width: 19%;
+    height: 76px;
+}
+
+.thirdBox {
+    background-color: #62B3AA;
+    /* float: left; */
+    width: 35%;
+    height: 76px;
+}
+
+/* textBoxes */
+.text {
+    margin: auto auto 0;
+}
+
+a {
+    color: blue;
+}
+
+.firstTextBox {
+    padding: 11px 0 11px;
+    font-size: medium;
+}
+
+.secondTextBox {
+    font-size: small;
+    padding: 8px 0 8px;
+}
+
+.thirdTextBox {
+    font-size: small;
+    padding: 2px 0 2px;
+}
+
+/* footer */
+footer{
+    font-size: small;
+}
