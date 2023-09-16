@@ -45,7 +45,7 @@ body {
 
 main {
     text-align: center;
-    margin: 190px;
+    margin: 140px;
 }
 
 #logo {
@@ -105,6 +105,24 @@ input::-webkit-search-cancel-button {
     display: none;
 }
 
+.mainSpan {
+    display: inline-flex;
+    flex-grow: 1;
+}
+
+.buttons {
+    margin: 30px 8px;
+}
+
+button {
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    height: 36px;
+    font-size: 14px;
+    color: #5f6368;
+    padding:0 16px;
+}
+
 footer {
     position: fixed;
     background-color: #f2f2f2;
@@ -121,7 +139,7 @@ footer {
     justify-content: space-between;
 }
 
-span {
+.footerSpan {
     padding: 0 10px;
 }
 
@@ -149,8 +167,6 @@ ul {
 #footerLi a:hover {
     text-decoration: underline;
 }
-
-/*!should find out how to set the end */
 
 #endLi {
     list-style-type: none;
